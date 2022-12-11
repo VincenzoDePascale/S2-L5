@@ -1,9 +1,10 @@
-a {
-  text-decoration: none;
+body {
+  width: 100vw;
 }
 
 article {
-  margin: 10px;
+  margin: 25px;
+  width: 90vw;
 }
 
 header div {
@@ -11,7 +12,7 @@ header div {
 }
 
 nav {
-  background-color: #e9edee;
+  background-color: #364759;
 }
 
 nav > ul {
@@ -24,18 +25,32 @@ nav > ul > li {
   margin-right: 1em;
 }
 
+.nLink {
+  text-decoration: none;
+
+  color: white;
+}
+
 main {
   margin-left: 10px;
   margin-right: 10px;
+  text-align: center;
 }
 
 .topBanner,
-.secondBanner {
+.secondBanner,
+.terzoBanner,
+.quartoBanner,
+.quintoBanner {
   text-align: center;
+  max-width: 90vw;
 }
 
 .topBanner {
   background-color: #f56600;
+  padding: 1.5em;
+  color: white;
+  font-size: 1.5em;
 }
 
 .secondBanner {
@@ -43,11 +58,58 @@ main {
   margin-top: 1em;
   padding-top: 2px;
   padding-bottom: 2px;
+  color: white;
 }
 
-.boxCard img {
+.secondTitle {
+  font-size: 2em;
+}
+
+.terzoBanner {
+  border: solid wheat;
+  border-radius: 10px;
+}
+
+.terzoTitle {
+  padding: 1em;
+}
+
+.cards {
   display: inline-block;
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
   border-radius: 15px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.quartoBanner > img,
+.quintoBanner > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.quartoBanner > p > a,
+.quintoBanner > p > a {
+  text-decoration: none;
+}
+
+.footerUno {
+  background-color: #364759;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0px;
+}
+
+.footerUno > a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+}
+
+.footerTwo {
+  background-color: #222f3f;
+  padding: 2.5em;
+  text-align: center;
 }
