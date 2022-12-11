@@ -27,7 +27,6 @@ nav > ul > li {
 
 .nLink {
   text-decoration: none;
-
   color: white;
 }
 
@@ -44,6 +43,8 @@ main {
 .quintoBanner {
   text-align: center;
   max-width: 90vw;
+  border: solid lightgray;
+  border-radius: 10px;
 }
 
 .topBanner {
@@ -65,9 +66,14 @@ main {
   font-size: 2em;
 }
 
-.terzoBanner {
-  border: solid wheat;
-  border-radius: 10px;
+.terzoBanner,
+.quartoBanner,
+.quintoBanner {
+  font-size: 1.5em;
+}
+
+.terzoBanner a {
+  text-decoration: none;
 }
 
 .terzoTitle {
@@ -104,7 +110,7 @@ main {
 
 .footerUno > a {
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.25em;
   color: white;
 }
 
